@@ -1,0 +1,5 @@
+npm install -g typescript // install typescript globally
+tsc --version // check the version of the installed typescript
+tsc index.ts // generate index.js from index.ts
+tsc --init // generate the typescript configuration file (tsconfig.json)
+tsc -w // watch for file changes and apply recompiling
